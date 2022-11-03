@@ -1,17 +1,29 @@
 # ServidorSRI
 Para crear un repositorio en github vamos a github y creamos un repositorio, hacemos 
+~~~
+git init 
+~~~
+en la carpeta raiz del proyectyo
 
-git init
-
-git add 
-
-git commit
-
-git add remote
-
+~~~
+git add archivo
+~~~
+de los archivos que queramos subir
+~~~
+git commit -m "name"
+~~~
+con el nombre del commit
+~~~
+git add remote url 
+~~~
+la url te la dan al iniciar el repositorio desde github
+~~~
 git push -u origin master
+~~~
+para subir los archivos a la rama master de tu repositorio en github
 
-y ya tenemos el repositorio creado con los archivos que añadamos en el git add
+___
+Y ya tenemos el repositorio creado con los archivos que añadamos en el git add
 
 lo primero que tendremos que crear sera el readme seguido de nustras carpetas y el docker-compose.yml 
 
