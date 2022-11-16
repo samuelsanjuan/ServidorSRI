@@ -4,10 +4,46 @@ services:
     image: php:7.4-apache
     container_name: asir_servidor_apache
     ports:
-      - '8008:80'
+      - '8000:8000'
+      - '80:80'
     volumes:
-      - ./Servidor/Pagina1:/var/www/html
-      - ./Servidor/ConfApache:/usr/local/apache/htdocs
+      - ./Servidor:/var/www/html
+      - ./Servidor/ConfApache:/etc/apache2
+    dns:
+      - 172.29.0.101 
+    networks:
+      trabajo-servidor:
+        ipv4_address: 172.29.0.80 
+
+
+  bind9:
+    container_name: asir_bind9
+    image: internetsystemsconsortium/bind9:9.18
+    volumes:
+      - ./DNS:/etc/bind
+      - ./DNS/zonas:/var/lib/bind
+    networks:
+      trabajo-servidor:
+        ipv4_address: 172.29.0.101  
+
+
+  firefox:
+    image: jlesage/firefox
+    container_name: asir-firefox
+    ports:
+      - '5800:5800'
+    volumes:
+      - ./firefox:/config:rw
+    dns:
+      - 172.29.0.101 
+    networks:
+      trabajo-servidor:
+        ipv4_address: 172.29.0.58  
+
+networks:
+  trabajo-servidor:
+    external: true
+      
 
 
       
