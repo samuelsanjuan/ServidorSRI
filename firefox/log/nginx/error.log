@@ -1,0 +1,1 @@
+2022/11/17 15:18:10 [error] 566#566: *7 recv() failed (104: Connection reset by peer) while sending request to upstream, client: 172.29.0.1, server: , request: "GET /websockify HTTP/1.1", upstream: "websockify://unix:/tmp/vnc.sock:", host: "localhost:5800"

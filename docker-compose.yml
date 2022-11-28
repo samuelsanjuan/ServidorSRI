@@ -9,8 +9,6 @@ services:
     volumes:
       - ./Servidor:/var/www/html
       - ./Servidor/ConfApache:/etc/apache2
-    dns:
-      - 172.29.0.101 
     networks:
       trabajo-servidor:
         ipv4_address: 172.29.0.80 

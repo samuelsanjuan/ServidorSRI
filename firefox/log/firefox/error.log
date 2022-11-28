@@ -2,3 +2,23 @@
 
 (firefox-default:559): GLib-GIO-WARNING **: 17:26:15.005: Failed to execute child process “update-desktop-database” (No such file or directory)
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+[2022-11-16T19:53:16Z ERROR glean_core::database] Failed to record metric into glean_internal_info: Error { kind: Rkv(IoError(Os { code: 13, kind: PermissionDenied, message: "Permission denied" })) }
+[2022-11-16T19:53:16Z ERROR glean_core::database] Failed to record metric into glean_internal_info: Error { kind: Rkv(IoError(Os { code: 13, kind: PermissionDenied, message: "Permission denied" })) }
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+[2022-11-17T15:46:17Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:17Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:17Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:19Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-11-17T15:46:23Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
